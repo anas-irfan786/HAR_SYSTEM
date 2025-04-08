@@ -1,0 +1,120 @@
+/* Global Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #004e92, #000428);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav a {
+    font-size: 1.1em;
+}
+
+    .navbar-nav a:hover {
+        color: #ff9800;
+    }
+
+/* Reports Section Styling */
+.reports-section {
+    margin: 40px 10%;
+    padding: 30px;
+    background-color: #deeaef;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .reports-section h2 {
+        font-family: 'Arial', sans-serif;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .reports-section p {
+        font-size: 1.2em;
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+.generate-report-btn {
+    display: block;
+    width: 250px;
+    margin: 30px auto;
+    padding: 12px;
+    background-color: #004e92;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .generate-report-btn:hover {
+        background-color: #000428;
+    }
+
+/* Export Buttons Section */
+.export-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+    .export-btns button {
+        padding: 14px 22px;
+        font-size: 1.2em;
+        background-color: #ff9800;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .export-btns button:hover {
+            background-color: #f57c00;
+        }
+
+/* Table for Report Preview */
+.table {
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .table th,
+    .table td {
+        text-align: center;
+    }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e2e4a;
+    color: #cccccc;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .generate-report-btn {
+        width: 200px;
+    }
+}

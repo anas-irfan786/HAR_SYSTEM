@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #004e92, #000428);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    margin-bottom: 0;
+    background: linear-gradient(to right, #004e92, #000428);
+    font-size: 1.1rem;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav a {
+    font-size: 1.1em;
+}
+
+    .navbar-nav a:hover {
+        color: #ff9800;
+    }
+
+/* Model Training Container */
+.model-training-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.model-training-form {
+    position: relative;
+    background-color: white;
+    padding: 40px;
+    padding-top: 60px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #004e92, #000428) 1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Form Fields */
+h2 {
+    color: #004e92;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #004e92;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+    /* Style the file upload button */
+    input[type="file"] {
+        display: inline-block;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #004e92;
+        background: linear-gradient(to right, #004e92, #000428);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+button {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #004e92;
+        color: white;
+    }
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004e92;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .model-training-form {
+        padding: 25px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,87 @@
+﻿@page "/ModelTraining"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Training</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Model_training.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/img/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-top" style="border-radius: 15px; margin-right: 8px;">
+                <span style="font-weight: bold; font-family: 'Arial Black', Arial, sans-serif;">HAR System</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admindashboard">Admin Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/reports">Reports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/settings">Settings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                </ul>
+                <input type="text" id="searchBox" placeholder="Search for activities..." class="form-control" style="width: 50%">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="model-training-container">
+        <div class="model-training-form">
+            <h2>Model Training</h2>
+            <p>Upload your dataset and configure model parameters for training.</p>
+
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <!-- Dataset Upload -->
+                <div class="form-group">
+                    <label for="dataset">Upload Dataset (Excel):</label>
+                    <input type="file" id="dataset" name="dataset" accept=".xlsx, .xls" required>
+                </div>
+
+                <!-- Model Type Selection -->
+                <div class="form-group">
+                    <label for="model-type">Select Model Type:</label>
+                    <select id="model-type" name="model-type" required>
+                        <option value="classification">Classification</option>
+                        <option value="regression">Regression</option>
+                        <option value="clustering">Clustering</option>
+                    </select>
+                </div>
+
+                <!-- Training Parameters -->
+                <div class="form-group">
+                    <label for="epochs">Number of Epochs:</label>
+                    <input type="number" id="epochs" name="epochs" min="1" value="10" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="batch-size">Batch Size:</label>
+                    <input type="number" id="batch-size" name="batch-size" min="1" value="32" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="learning-rate">Learning Rate:</label>
+                    <input type="number" id="learning-rate" name="learning-rate" step="0.0001" value="0.01" required>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn" style="background-color: #004e92; color: #ffffff; margin-left: 570px;">Start Training</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 HAR System. All rights reserved.
+    </footer>
+</body>
+</html>

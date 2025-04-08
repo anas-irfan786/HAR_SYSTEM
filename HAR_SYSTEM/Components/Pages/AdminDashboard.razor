@@ -1,0 +1,133 @@
+﻿@page "/AdminDashboard"
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - HAR System</title>
+    <link href="css/Admin_dashboard.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/home">
+                    <img src="/img/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-top" style="border-radius: 15px; margin-right: 8px;">
+                    <span style="font-weight: bold; font-family: 'Arial Black', Arial, sans-serif;">HAR System</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Admin Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/reports">Reports</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Settings">Settings</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                    </ul>
+                    <input type="text" id="searchBox" placeholder="Search for activities..." class="form-control" style="width: 50%">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="dashboard-section container">
+        <h2>Admin Dashboard</h2>
+        <p>Manage advanced settings, initiate model training, view system activity logs, and analyze user feedback. Access tools for better performance and control.</p>
+
+        <!-- Profile and Activity Layout -->
+        <div class="profile-and-activity">
+            <!-- Admin Profile Section -->
+            <section class="admin-profile">
+                <img src="/img/admin.png" alt="Admin Profile" class="profile-picture">
+                <h3>Manahil</h3>
+                <h5>Email:</h5><p> manahil@pucit.edu,pk</p>
+                <h5>Account Type:</h5><p> Admin</p>
+                <h5>Bio:</h5><p>
+                    I am a passionate female developer with a keen interest in advancing technology and artificial intelligence. I aim to leverage my skills to create innovative solutions that can transform industries."
+                </p>
+                <h5>Expertise:</h5><p>My primary expertise lies in machine learning and web development, where I combine technical knowledge and creativity to build scalable, efficient systems and user-friendly web applications."</p>
+                
+                <button class="btn-edit">Edit Profile</button>
+            </section>
+
+            <!-- Recent Activity Table -->
+            <section class="recent-activity-table">
+                <h4>Recent Admin Activities</h4>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Timestamp</th>
+                            <th>Activity</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024-11-24 10:00 AM</td>
+                            <td>Started Model Training</td>
+                            <td>Training model for better recognition accuracy.</td>
+                        </tr>
+                        <tr>
+                            <td>2024-11-24 11:00 AM</td>
+                            <td>Reviewed User Feedback</td>
+                            <td>Analyzed feedback regarding new </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>2024-11-23 09:00 AM</td>
+                            <td>System Optimized</td>
+                            <td>Improved speed and response time for better performance.</td>
+                        </tr>
+                        <tr>
+                            <td>2024-11-23 02:30 PM</td>
+                            <td>Bug Fixes Applied</td>
+                            <td>Fixed minor bugs related</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="control-btns">
+                    <button id="advancedSettingsBtn">Advanced Settings</button>
+                    <button id="modelTrainingBtn">Train Model</button>
+                </div>
+
+                <!-- Logs and Feedback Table -->
+                <h4 style="text-align: center; margin-top: 40px;">System Activity Logs</h4>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Log Timestamp</th>
+                            <th>Activity</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024-11-23 09:00 AM</td>
+                            <td>System Optimized</td>
+                            <td>Improved speed and response time for better performance.</td>
+                        </tr>
+                        <tr>
+                            <td>2024-11-23 02:30 PM</td>
+                            <td>Bug Fixes Applied</td>
+                            <td>Fixed minor bugs related</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </section>
+</body>
+<footer>
+    &copy; copyright. All Rights Reserved
+</footer>
+</html>

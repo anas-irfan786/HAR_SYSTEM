@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #e0e0e0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-image: linear-gradient(90deg, #3ab5b0 0, #3d99be 31%, #364684);
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(46, 76, 139);
+}
+
+.navbar-nav a {
+    font-size: 1.2em;
+}
+
+    .navbar-nav a:hover {
+        color: #ff9800;
+    }
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 80px 20px;
+    background-image: linear-gradient(90deg, #3ab5b0 0, #3d99be 31%, #364684);
+    color: #fff;
+    border-bottom: 5px solid #1e2e4a;
+}
+
+    .header h1 {
+        font-size: 3rem;
+        font-family: 'Arial', sans-serif;
+        background-image: linear-gradient(90deg, #3ab5b0 0, #3d99be 31%, #364684);
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        font-weight: lighter;
+        background-image: linear-gradient(90deg, #3ab5b0 0, #3d99be 31%, #364684);
+    }
+
+/* About Us Section */
+.about-sections {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.about-card {
+    background-color: #1e2e4a;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .about-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+    }
+
+    .about-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+.about-card-content {
+    padding: 20px;
+}
+
+    .about-card-content h3 {
+        color: #5074be;
+        margin: 0;
+    }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e2e4a;
+    color: #cccccc;
+}
+/* Section Styling */
+/* Container for the two sections */
+
+/* Common styling for sections */
+.about-section {
+    padding: 20px;
+    width: 95%; /* Adjust width to fit the two sections */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+/* Section titles */
+.section-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2a2b8f;
+    margin-bottom: 20px;
+}
+
+/* Section text */
+.section-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e2e4a;
+    color: #cccccc;
+}
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .about-section {
+        width: 100%; /* Stack the sections vertically on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .about-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-card {
+        max-width: 90%;
+    }
+}

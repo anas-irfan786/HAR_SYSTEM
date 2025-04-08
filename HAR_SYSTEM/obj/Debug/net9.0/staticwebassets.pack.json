@@ -1,0 +1,289 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\About_us.css",
+      "PackagePath": "staticwebassets\\css\\About_us.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Activity_summary.css",
+      "PackagePath": "staticwebassets\\css\\Activity_summary.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Admin_dashboard.css",
+      "PackagePath": "staticwebassets\\css\\Admin_dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Error_Maintain.css",
+      "PackagePath": "staticwebassets\\css\\Error_Maintain.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Feedback.css",
+      "PackagePath": "staticwebassets\\css\\Feedback.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\History.css",
+      "PackagePath": "staticwebassets\\css\\History.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Live_Graph.css",
+      "PackagePath": "staticwebassets\\css\\Live_Graph.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Model_training.css",
+      "PackagePath": "staticwebassets\\css\\Model_training.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Reports.css",
+      "PackagePath": "staticwebassets\\css\\Reports.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\Settings.css",
+      "PackagePath": "staticwebassets\\css\\Settings.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\img\\admin.png",
+      "PackagePath": "staticwebassets\\img\\admin.png"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\img\\human-activity-chart.png",
+      "PackagePath": "staticwebassets\\img\\human-activity-chart.png"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\img\\human-llm.jpg",
+      "PackagePath": "staticwebassets\\img\\human-llm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\img\\mission.png",
+      "PackagePath": "staticwebassets\\img\\mission.png"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\img\\team.png",
+      "PackagePath": "staticwebassets\\img\\team.png"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\img\\technology.png",
+      "PackagePath": "staticwebassets\\img\\technology.png"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\img\\vision.png",
+      "PackagePath": "staticwebassets\\img\\vision.png"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.HAR_SYSTEM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.HAR_SYSTEM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.HAR_SYSTEM.props",
+      "PackagePath": "build\\HAR_SYSTEM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.HAR_SYSTEM.props",
+      "PackagePath": "buildMultiTargeting\\HAR_SYSTEM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.HAR_SYSTEM.props",
+      "PackagePath": "buildTransitive\\HAR_SYSTEM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,129 @@
+﻿@page "/Settings"
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - HAR System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="css/Settings.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark top-fixed text-light">
+            <div class="container">
+                <a class="navbar-brand" href="/home">
+                    <img src="/img/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-top" style="border-radius: 15px; margin-right: 8px;">
+                    <span style="font-weight: bold; font-family: 'Arial Black', Arial, sans-serif;">HAR System</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="/Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/aboutus">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                    </ul>
+                    <input type="text" id="searchBox" placeholder="Search for activities..." class="form-control" style="width: 50%" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Settings Section -->
+    <section class="settings-section container">
+        <h2>Settings</h2>
+
+        <!-- Theme Selection Card -->
+        <div class="setting-card">
+            <h4 class="card-title">Theme Selection</h4>
+            <div class="setting-options">
+                <select>
+                    <option value="light">Light Mode</option>
+                    <option value="dark">Dark Mode</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Notification Settings Card -->
+        <div class="setting-card">
+            <h4 class="card-title">Notification Settings</h4>
+            <div class="toggle-switch">
+                <span>Enable Notifications</span>
+                <input type="checkbox" id="notificationsSwitch">
+            </div>
+        </div>
+
+        <!-- Privacy Control Card -->
+        <div class="setting-card">
+            <h4 class="card-title">Privacy Controls</h4>
+            <select>
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+                <option value="friends">Friends Only</option>
+            </select>
+        </div>
+
+        <!-- Language Selection Card -->
+        <div class="setting-card">
+            <h4 class="card-title">Language Selection</h4>
+            <select>
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="es">Spanish</option>
+            </select>
+        </div>
+
+        <!-- Account Settings Card -->
+        <div class="setting-card">
+            <h4 class="card-title">Account Settings</h4>
+            <div class="setting-options">
+                <input type="text" placeholder="Username" />
+                <input type="email" placeholder="Email Address" />
+            </div>
+        </div>
+
+        <!-- Password Management Card -->
+        <div class="setting-card">
+            <h4 class="card-title">Change Password</h4>
+            <div class="setting-options">
+                <input type="password" placeholder="New Password" />
+                <input type="password" placeholder="Confirm Password" />
+            </div>
+        </div>
+
+        <!-- Activity Logging Card -->
+        <div class="setting-card">
+            <h4 class="card-title">Activity Logging</h4>
+            <div class="toggle-switch">
+                <span>Enable Activity Logging</span>
+                <input type="checkbox" id="activityLoggingSwitch">
+            </div>
+        </div>
+
+        <!-- Two-Factor Authentication Card -->
+        <div class="setting-card">
+            <h4 class="card-title">Two-Factor Authentication</h4>
+            <div class="setting-options">
+                <input type="tel" placeholder="Phone Number for 2FA" />
+                <button>Enable 2FA</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer>
+    &copy; 2024 HAR System. All Rights Reserved.
+</footer>
+</html>
+

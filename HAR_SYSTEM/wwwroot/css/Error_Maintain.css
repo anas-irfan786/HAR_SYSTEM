@@ -1,0 +1,117 @@
+/* Global Styles */
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9; /* Light grey background */
+    margin: 50px;
+    padding: 60px;
+}
+
+/* Error Page Container */
+.error-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+}
+
+.error-page-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 750px; /* Increased width from 600px to 750px */
+    border: 1px solid #004e92; /* Matching theme color */
+    text-align: center;
+}
+
+/* Title Styling */
+h2 {
+    color: #004e92;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #004e92;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #004e92;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+/* Error Icon */
+.error-icon img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* System Status Section */
+.status-section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+    .status-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .status-section ul li {
+            font-size: 1.1rem;
+            margin: 5px 0;
+        }
+
+            .status-section ul li strong {
+                color: #004e92;
+            }
+
+/* Troubleshooting Section */
+.troubleshooting-section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+    .troubleshooting-section ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        font-size: 1.1rem;
+    }
+
+        .troubleshooting-section ul li {
+            margin: 8px 0;
+        }
+
+/* Contact Support Section */
+.contact-support-section {
+    margin-top: 40px;
+}
+
+    .contact-support-section .btn {
+        background-color: #ff9800;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        border: none;
+    }
+
+        .contact-support-section .btn:hover {
+            background-color: #004e92;
+            color: white;
+        }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .error-page-content {
+        padding: 70px;
+        width: 90%;
+    }
+}

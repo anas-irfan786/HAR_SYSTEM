@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #004e92, #000428);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.navbar-nav a {
+    font-size: 1.1em;
+}
+
+    .navbar-nav a:hover {
+        color: #ff9800;
+    }
+
+/* Settings Section */
+.settings-section {
+    margin: 20px;
+    margin-left: 200px;
+    width: 60%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .settings-section h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #004e92;
+    }
+
+/* Card Styling */
+.setting-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+    .setting-card:hover {
+        transform: scale(1.05);
+    }
+
+    .setting-card .card-title {
+        font-size: 1.5rem;
+        color: #004e92;
+    }
+
+    .setting-card .setting-options {
+        margin-top: 20px;
+    }
+
+        .setting-card .setting-options input,
+        .setting-card .setting-options select,
+        .setting-card .setting-options button {
+            font-size: 1rem;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f6f9;
+            transition: background-color 0.3s ease;
+        }
+
+            .setting-card .setting-options button:hover,
+            .setting-card .setting-options select:hover {
+                background-color: #004e92;
+                color: white;
+            }
+
+.toggle-switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+    .toggle-switch input[type="checkbox"] {
+        width: 40px;
+        height: 20px;
+        appearance: none;
+        background-color: #ddd;
+        border-radius: 20px;
+        position: relative;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .toggle-switch input[type="checkbox"]:checked {
+            background-color: #004e92;
+        }
+
+            .toggle-switch input[type="checkbox"]:checked::before {
+                left: 20px;
+            }
+
+        .toggle-switch input[type="checkbox"]::before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #fff;
+            transition: left 0.3s;
+        }
+
+.linked-devices img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .settings-section {
+        margin: 0 5%;
+    }
+}

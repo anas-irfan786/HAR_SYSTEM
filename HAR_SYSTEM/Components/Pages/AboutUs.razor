@@ -1,0 +1,102 @@
+﻿@page "/aboutus"
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/About_us.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark top-fixed text-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-top" style="border-radius: 15px; margin-right: 8px;">
+                    <span style="font-weight: bold; font-family: 'Arial Black', Arial, sans-serif;">HAR System</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="/Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/aboutus">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                    </ul>
+                    <input type="text" id="searchBox" placeholder="Search for activities..." class="form-control" style="width: 50%" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>About Us</h1>
+        <p>Discover the team and mission behind the HAR System</p>
+    </div>
+
+    <!-- About Sections -->
+    <div class="about-sections">
+        <div class="about-card">
+            <img src="/img/team.png" alt="Our Team">
+            <div class="about-card-content">
+                <h3>Our Team</h3>
+                <p>A group of passionate innovators aiming to revolutionize human activity recognition using cutting-edge LLM technologies.</p>
+            </div>
+        </div>
+
+        <div class="about-card">
+            <img src="/img/mission.png" alt="Our Mission">
+            <div class="about-card-content">
+                <h3>Our Mission</h3>
+                <p>To provide intuitive and accurate solutions for monitoring human activities, empowering individuals and businesses alike.</p>
+            </div>
+        </div>
+
+        <div class="about-card">
+            <img src="/img/technology.png" alt="Our Technology">
+            <div class="about-card-content">
+                <h3>Our Technology</h3>
+                <p>Utilizing advanced sensor data analysis, machine learning, and LLM integration to create seamless user experiences.</p>
+            </div>
+        </div>
+
+        <div class="about-card">
+            <img src="/img/vision.png" alt="Our Vision">
+            <div class="about-card-content">
+                <h3>Our Vision</h3>
+                <p>Shaping the future of activity recognition systems with scalable, secure, and innovative technologies.</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-container">
+        <!-- System Description Section -->
+        <section class="about-section">
+            <h3 class="section-title">Our System</h3>
+            <p class="section-text">Our Human Activity Recognition (HAR) system is built on a foundation of cutting-edge machine learning and sensor data analysis. The system uses advanced sensors combined with powerful algorithms to accurately detect and classify human activities. By integrating Large Language Models (LLMs) into the system, we have taken activity recognition to the next level, allowing us to interpret complex human behavior patterns with greater accuracy. This system can be applied in various domains, including smart homes, healthcare, and security, to offer real-time insights into users' actions.</p>
+            <p class="section-text">The core advantage of our system lies in its ability to process raw data from sensors and transform it into actionable insights. These insights are used to track and predict human activities, making our technology useful in contexts like fitness tracking, healthcare applications, and elderly care. We aim to offer a scalable solution that adapts to a wide range of real-world applications while providing high accuracy with minimal computational resources.</p>
+        </section>
+
+        <!-- Advancements Section -->
+        <section class="about-section">
+            <h3 class="section-title">Our Advancements</h3>
+            <p class="section-text">We are continuously pushing the boundaries of Human Activity Recognition. Our use of deep learning models, sensor fusion techniques, and cloud computing enables us to provide real-time activity recognition with minimal latency and high efficiency. Through these advancements, we ensure that our system can handle complex tasks while remaining lightweight and scalable.</p>
+            <p class="section-text">One of the key innovations in our system is the integration of Large Language Models (LLMs). These models enable the system to not only recognize activities but also understand the context in which they occur. This contextual awareness improves the system’s ability to deliver accurate and relevant results, enhancing user interaction. With continuous updates and training on diverse datasets, our system becomes increasingly robust and adaptive to different scenarios, offering more value in various applications.</p>
+            <p class="section-text">We also focus on improving the user experience, ensuring that our system is easy to integrate into a wide range of devices and platforms. From fitness trackers to home automation systems, our technology can provide users with meaningful insights and seamless interaction, paving the way for smarter, more responsive environments.</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 HAR System. All Rights Reserved.
+    </footer>
+
+</body>
+</html>

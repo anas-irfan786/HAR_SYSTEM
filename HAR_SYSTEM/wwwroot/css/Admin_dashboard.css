@@ -1,0 +1,204 @@
+/* Global Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #004e92, #000428);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav a {
+    font-size: 1.1em;
+}
+
+    .navbar-nav a:hover {
+        color: #ff9800;
+    }
+
+/* Admin Profile Section */
+.admin-profile {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+    border-top: 5px solid #004e92;
+}
+
+    .admin-profile .profile-picture {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 6px solid #004e92;
+        margin-bottom: 20px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+        .admin-profile .profile-picture:hover {
+            transform: scale(1.05);
+        }
+
+    .admin-profile h3 {
+        font-size: 1.8rem;
+        color: #004e92; /* Changed to match navbar color */
+        margin-bottom: 10px;
+    }
+
+    .admin-profile p {
+        font-size: 1.1rem;
+        color: #777;
+        margin: 5px 0;
+    }
+
+    .admin-profile .btn-edit {
+        padding: 12px 30px;
+        background-color: #004e92;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 15px;
+    }
+
+        .admin-profile .btn-edit:hover {
+            background-color: #000428;
+        }
+
+    /* Box Shadow Effect */
+    .admin-profile:hover {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    }
+
+/* Table Styling */
+.recent-activity-table {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .recent-activity-table h4 {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #004e92; /* Changed to match navbar color */
+        margin-bottom: 20px;
+    }
+
+.table th,
+.table td {
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Admin Dashboard Section */
+.dashboard-section {
+    margin: 0 10%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .dashboard-section h2 {
+        font-family: 'Arial', sans-serif;
+        color: #004e92; /* Changed to match navbar color */
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .dashboard-section p {
+        font-size: 1.2em;
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+/* Control Buttons */
+.control-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px; /* Adjusted for spacing */
+}
+
+    .control-btns button {
+        padding: 14px 22px;
+        font-size: 1.2em;
+        background-color: #004e92;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .control-btns button:hover {
+            background-color: #000428;
+        }
+
+/* Flexbox Layout for Profile and Activity */
+.profile-and-activity {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.admin-profile {
+    flex: 1;
+    max-width: 45%;
+}
+
+.recent-activity-table {
+    flex: 2;
+    max-width: 50%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .control-btns button {
+        width: 100%;
+    }
+
+    .profile-and-activity {
+        flex-direction: column;
+    }
+
+    .admin-profile,
+    .recent-activity-table {
+        max-width: 100%;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e2e4a;
+    color: #cccccc;
+}
