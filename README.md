@@ -1,1 +1,0 @@
-# HAR_SYSTEM

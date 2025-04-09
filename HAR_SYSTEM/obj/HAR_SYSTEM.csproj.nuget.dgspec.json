@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\HAR_SYSTEM.csproj": {}
+    "C:\\Users\\Laiba Riaz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\HAR_SYSTEM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\HAR_SYSTEM.csproj": {
+    "C:\\Users\\Laiba Riaz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\HAR_SYSTEM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\HAR_SYSTEM.csproj",
+        "projectUniqueName": "C:\\Users\\Laiba Riaz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\HAR_SYSTEM.csproj",
         "projectName": "HAR_SYSTEM",
-        "projectPath": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\HAR_SYSTEM.csproj",
-        "packagesPath": "C:\\Users\\wiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wiz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\obj\\",
+        "projectPath": "C:\\Users\\Laiba Riaz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\HAR_SYSTEM.csproj",
+        "packagesPath": "C:\\Users\\Laiba Riaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laiba Riaz\\Desktop\\HAR_SYSTEM\\HAR_SYSTEM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\wiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laiba Riaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,11 +44,41 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
